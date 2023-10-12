@@ -40,7 +40,7 @@ export default function Home() {
       </Navbar>
 
       <div className="grid grid-cols-1 justify-items-center bg-gradient-to-b from-rgray via-wheat to-rgray ">
-        <div className="rounded-lg bg-rblack mt-[90px] min-h-[15%] flex bg-rgray ">
+        <div className="rounded-lg bg-rblack mt-[90px] min-h-[15%] flex">
           <Image width={300} height={300} src={picture} alt="test" className="rounded-lg" />
           <Card className="rounded-lg columns-3 min-h-[100px] min-w-[600px] text-wheat bg-gradient-to-b from-straw to-rblack">
             <CardBody>
@@ -76,7 +76,7 @@ export default function Home() {
             <div className="grid grid-cols-1 justify-items-center">
                 <h1 className="m-2 font-black text-rblack text-4xl">ACHERON</h1>
                 <Image className="rounded-lg" width={170} height={150} src={acheron} alt="acheron-img"></Image>
-                <p className="mt-[40px] font-bold m-4">A renowned Starcraft 2 Protoss player is recognized for his unconventional and often surprising strategies, commonly referred to as 'cheesy' builds. This player's distinctive approach to the game has earned both admiration and critique from fans and fellow competitors alike.</p>
+                <p className="mt-[40px] font-bold m-4">A renowned Starcraft 2 Protoss player is recognized for his unconventional and often surprising strategies, commonly referred to as cheesy builds. This players distinctive approach to the game has earned both admiration and critique from fans and fellow competitors alike.</p>
                 <div className="grid grid-cols-2 items-center">
                   <a href="https://twitter.com/acheronii" target="_blank" rel="noopener noreferrer">
                     <Image className="self-end m-2" src={twitter} alt="twitter-img"></Image>
@@ -94,7 +94,7 @@ export default function Home() {
             <div className="grid grid-cols-1 justify-items-center">
                 <h1 className="m-2 font-black text-rblack text-4xl">BILLYUDDERS</h1>
                 <Image className="rounded-lg" width={170} height={150} src={billy} alt="billy-img"></Image>
-                <p className="font-bold m-4">A notable Starcraft 2 player has gained recognition for pioneering a unique strategy dubbed the "Billy Bomb". This innovative build has significantly influenced gameplay, drawing attention and commentary from the gaming community.</p>
+                <p className="font-bold m-4">A notable Starcraft 2 player has gained recognition for pioneering a unique strategy dubbed the Billy Bomb. This innovative build has significantly influenced gameplay, drawing attention and commentary from the gaming community.</p>
                 <div className="grid grid-cols-2 items-center">
                   <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
                     <Image className="self-end m-2" src={twitter} alt="twitter-img"></Image>
@@ -148,7 +148,7 @@ export default function Home() {
               <div className="grid grid-cols-1 justify-items-center">
                 <h1 className="m-2 font-black text-rblack text-4xl">MARU</h1>
                 <Image className="rounded-lg" width={170} height={150} src={maru} alt="holden-img"></Image>
-                <p className="font-bold m-4">Maru isn't actually on the team this is just the first prototype of the website and I didn't have enough pictures of the players on the roster yet. He is cool though.</p>
+                <p className="font-bold m-4">Maru isnt actually on the team this is just the first prototype of the website and I didnt have enough pictures of the players on the roster yet. He is cool though.</p>
                 <div className="grid grid-cols-2 items-center">
                   <a href="https://liquipedia.net/starcraft2/Maru" target="_blank" rel="noopener noreferrer">
                     <Image className="self-end m-2" src={twitter} alt="twitter-img"></Image>
