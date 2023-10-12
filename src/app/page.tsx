@@ -130,7 +130,7 @@ export default function Home() {
             <div className="grid grid-cols-1 justify-items-center">
                 <h1 className="m-2 font-black text-rblack text-4xl">SPAZYMAZY</h1>
                 <Image className="rounded-lg" width={170} height={150} src={spazy} alt="spazy-img"></Image>
-                <p className="font-bold m-4">A distinguished Starcraft 2 Terran player is renowned in the gaming community for representing Denmark. His skills and strategies, combined with his national pride, have made him a notable figure in the competitive scene.</p>
+                <p className="font-bold m-4">A distinguished Starcraft 2 Zerg player is renowned in the gaming community for representing Denmark. His skills and strategies, combined with his national pride, have made him a notable figure in the competitive scene.</p>
                 <div className="grid grid-cols-2 items-center">
                   <a href="https://twitter.com/Spazymazysc2" target="_blank" rel="noopener noreferrer">
                     <Image className="self-end m-2" src={twitter} alt="twitter-img"></Image>
