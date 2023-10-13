@@ -1,3 +1,7 @@
+### Personal Website ###
+The personal website is for a videogame I play called StarCraft 2. Now the team I am a part of has yet to have a website built for us so I took it upon myself to do so. The website features our current roster of players along with the game we play and links to our respective social medias.
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
