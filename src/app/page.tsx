@@ -26,9 +26,9 @@ export default function Home() {
             <p className="font-custom">BING BONG EXPORTS</p>
           </div>
           <div className="m-8 ml-auto flex space-x-4">
-            <a href="https://discord.gg/zNvSAzDx2D" target="_blank" rel="noopener noreferrer">
+            {/* <a href="https://discord.gg/zNvSAzDx2D" target="_blank" rel="noopener noreferrer">
               <Image className="self-end" src={discord} alt="discord-img"></Image>
-            </a>
+            </a> */}
             <a href="https://twitter.com/BingBongExports" target="_blank" rel="noopener noreferrer">
               <Image className="self-end" src={twitter} alt="twitter-img"></Image>
             </a>
@@ -40,9 +40,9 @@ export default function Home() {
       </Navbar>
 
       <div className="grid grid-cols-1 justify-items-center bg-gradient-to-b from-rgray via-wheat to-rgray ">
-        <div className="rounded-lg bg-rblack mt-[90px] min-h-[15%] flex">
-          <Image width={300} height={300} src={picture} alt="test" className="rounded-lg" />
-          <Card className="rounded-lg columns-3 min-h-[100px] min-w-[600px] text-wheat bg-gradient-to-b from-straw to-rblack">
+        <div className="grid grid-cols-1 md:grid-cols-2 justify-items-center rounded-lg bg-rblack mt-[90px] md:flex">
+          <Image width={350} height={350} src={picture} alt="test" className="rounded-lg" />
+          <Card className="rounded-lg columns-3 min-h-[600px] w-[350px] lg:min-h-[100px] lg:min-w-[600px] text-wheat bg-gradient-to-b from-straw to-rblack">
             <CardBody>
               <div className="m-4 grid grid-cols-1 justify-items-center">
                 <div className="font-black text-3xl text-black">THIS IS ALL ABOUT BINGUS SPORTUS</div>
@@ -52,8 +52,8 @@ export default function Home() {
           </Card>
         </div>
 
-        <div className="grid grid-cols-3 items-center justify-between p-24">
-          <Card className="rounded-lg bg-gradient-to-b from-straw to-rblack  m-8 h-[600px] w-[300px] xl:w-[400px] 2xl:w-[500px]">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center justify-between md:p-24">
+          <Card className="rounded-lg bg-gradient-to-b from-straw to-rblack m-4 lg:m-8 h-[600px] w-[300px] xl:w-[400px] 2xl:w-[500px]">
             <CardBody>
               <div className="grid grid-cols-1 justify-items-center">
                 <h1 className="m-2 font-black text-rblack text-4xl">HOLDEN</h1>
@@ -71,7 +71,7 @@ export default function Home() {
             </CardBody>
           </Card>
 
-          <Card className="rounded-lg bg-gradient-to-b from-straw to-rblack  m-8 h-[600px] w-[300px] xl:w-[400px] 2xl:w-[500px]">
+          <Card className="rounded-lg bg-gradient-to-b from-straw to-rblack m-4 lg:m-8 h-[600px] w-[300px] xl:w-[400px] 2xl:w-[500px]">
             <CardBody>
             <div className="grid grid-cols-1 justify-items-center">
                 <h1 className="m-2 font-black text-rblack text-4xl">ACHERON</h1>
@@ -89,7 +89,7 @@ export default function Home() {
             </CardBody>
           </Card>
 
-          <Card className="rounded-lg bg-gradient-to-b from-straw to-rblack  m-8 h-[600px] w-[300px] xl:w-[400px] 2xl:w-[500px]">
+          <Card className="rounded-lg bg-gradient-to-b from-straw to-rblack  m-4 lg:m-8 h-[600px] w-[300px] xl:w-[400px] 2xl:w-[500px]">
             <CardBody>
             <div className="grid grid-cols-1 justify-items-center">
                 <h1 className="m-2 font-black text-rblack text-4xl">BILLYUDDERS</h1>
@@ -107,7 +107,7 @@ export default function Home() {
             </CardBody>
           </Card>
 
-          <Card className="rounded-lg bg-gradient-to-b from-straw to-rblack  m-8 h-[600px] w-[300px] xl:w-[400px] 2xl:w-[500px]">
+          <Card className="rounded-lg bg-gradient-to-b from-straw to-rblack m-4 lg:m-8 h-[600px] w-[300px] xl:w-[400px] 2xl:w-[500px]">
             <CardBody>
             <div className="grid grid-cols-1 justify-items-center">
                 <h1 className="m-2 font-black text-rblack text-4xl">BENJADEATH</h1>
@@ -125,7 +125,7 @@ export default function Home() {
             </CardBody>
           </Card>
 
-          <Card className="rounded-lg bg-gradient-to-b from-straw to-rblack  m-8 h-[600px] w-[300px] xl:w-[400px] 2xl:w-[500px]">
+          <Card className="rounded-lg bg-gradient-to-b from-straw to-rblack m-4 lg:m-8 h-[600px] w-[300px] xl:w-[400px] 2xl:w-[500px]">
             <CardBody>
             <div className="grid grid-cols-1 justify-items-center">
                 <h1 className="m-2 font-black text-rblack text-4xl">SPAZYMAZY</h1>
@@ -143,7 +143,7 @@ export default function Home() {
             </CardBody>
           </Card>
 
-          <Card className="rounded-lg bg-gradient-to-b from-straw to-rblack  m-8 h-[600px] w-[300px] xl:w-[400px] 2xl:w-[500px]">
+          <Card className="rounded-lg bg-gradient-to-b from-straw to-rblack m-4 lg:m-8 h-[600px] w-[300px] xl:w-[400px] 2xl:w-[500px]">
             <CardBody>
               <div className="grid grid-cols-1 justify-items-center">
                 <h1 className="m-2 font-black text-rblack text-4xl">MARU</h1>
@@ -162,7 +162,7 @@ export default function Home() {
           </Card>
         </div>
 
-        <div className="rounded-lg bg-gradient-to-b from-straw to-rblack  mb-8 min-h-[500px] min-w-[500px] ">
+        <div className="rounded-lg bg-gradient-to-b from-straw to-rblack  mb-8 min-h-[300px] min-w-[300px] lg:min-h-[500px] lg:min-w-[500px] ">
           <Image src={starcraft} alt="test">
 
           </Image>
