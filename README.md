@@ -1,4 +1,6 @@
 ### Personal Website ###
+bingbongexports.vercel.app
+
 The personal website is for a videogame I play called StarCraft 2. Now the team I am a part of has yet to have a website built for us so I took it upon myself to do so. The website features our current roster of players along with the game we play and links to our respective social medias.
 
 
