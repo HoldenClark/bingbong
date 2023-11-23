@@ -20,6 +20,7 @@ const config: Config = {
         'straw': '#CED674',
         'rblack': '#1A1423',
         'rgray': '#2F2937',
+        'gold': '#FDFF48',
       },
       fontFamily: {
         'custom': ['Lato'],
