@@ -13,11 +13,12 @@ import twitter from './images/twitter.svg'
 import twitter_gold from './images/twittergold.svg'
 import copyright from './images/baseline-copyright.svg'
 import holden from './images/holdenpfplq.jpg'
-import benja from './images/benja.jpg'
+import benja from './images/benja.jpeg'
 import acheron from './images/acheron.jpg'
 import billy from './images/billy.jpg'
 import spazy from './images/spazymazy.jpg'
-import maru from './images/Maru.jpg'
+import anticore from './images/anticore_pfp.png'
+import josh from './images/josh.jpg'
 import usa from './images/flag-united-states.svg'
 import denmark from './images/flag-denmark.svg'
 import italy from './images/flag-italy.svg'
@@ -56,7 +57,7 @@ export default function Home() {
       </Navbar>
 
       <div className="grid grid-cols-1 justify-items-center bg-gradient-to-b from-rgray via-wheat to-rgray ">
-        <div className="grid grid-cols-1 justify-items-center m-8">
+        <div className="grid grid-cols-1 justify-items-center mt-[48px] m-8">
           <Image width={800} height={350} src={bingbong} alt="test" className="rounded-tl-lg rounded-tr-lg" />
           <Card className="rounded-bl-lg rounded-br-lg columns-3 min-h-[100px] w-[310px] md:min-h-[150px] md:min-w-[800px] bg-black">
             <CardBody>
@@ -90,7 +91,7 @@ export default function Home() {
                     <div>
                       <p>Offence</p>
                       <p>Defence</p>
-                      <p>Versatiltiy</p>
+                      <p>Versatility</p>
                       <p>Multitasking</p>
                       <p>Mechanics</p>
                       <p>Speed</p>
@@ -142,7 +143,7 @@ export default function Home() {
                     <div>
                       <p>Offence</p>
                       <p>Defence</p>
-                      <p>Versatiltiy</p>
+                      <p>Versatility</p>
                       <p>Multitasking</p>
                       <p>Mechanics</p>
                       <p>Speed</p>
@@ -194,7 +195,7 @@ export default function Home() {
                     <div>
                       <p>Offence</p>
                       <p>Defence</p>
-                      <p>Versatiltiy</p>
+                      <p>Versatility</p>
                       <p>Multitasking</p>
                       <p>Mechanics</p>
                       <p>Speed</p>
@@ -246,7 +247,7 @@ export default function Home() {
                     <div>
                       <p>Offence</p>
                       <p>Defence</p>
-                      <p>Versatiltiy</p>
+                      <p>Versatility</p>
                       <p>Multitasking</p>
                       <p>Mechanics</p>
                       <p>Speed</p>
@@ -298,7 +299,7 @@ export default function Home() {
                     <div>
                       <p>Offence</p>
                       <p>Defence</p>
-                      <p>Versatiltiy</p>
+                      <p>Versatility</p>
                       <p>Multitasking</p>
                       <p>Mechanics</p>
                       <p>Speed</p>
@@ -338,7 +339,7 @@ export default function Home() {
               </div>
 
               <div className="grid grid-cols-2 justify-items-center">
-                <Image className="rounded-lg ml-4" width={200} height={300} src={placeholder} alt="spazy-img"></Image>
+                <Image className="rounded-lg ml-4" width={200} height={300} src={anticore} alt="spazy-img"></Image>
 
                 <div className="ml-8">
                   <div className="grid grid-cols-1 justify-items-center mr-[26px]">
@@ -350,7 +351,7 @@ export default function Home() {
                     <div>
                       <p>Offence</p>
                       <p>Defence</p>
-                      <p>Versatiltiy</p>
+                      <p>Versatility</p>
                       <p>Multitasking</p>
                       <p>Mechanics</p>
                       <p>Speed</p>
@@ -369,7 +370,7 @@ export default function Home() {
                       <a href="https://twitter.com/BingBongExports" target="_blank" rel="noopener noreferrer">
                         <Image className="ml-[35px] mt-[7px] self-end" src={twitter} alt="twitter-img"></Image>
                       </a>
-                      <a href="https://www.twitch.tv/bingbongexports" target="_blank" rel="noopener noreferrer">
+                      <a href="https://www.twitch.tv/coranticore" target="_blank" rel="noopener noreferrer">
                         <Image className="ml-[30px] mt-[7.5px] self-end" src={twitch} alt="twitch-img"></Image>
                       </a>
                     </div>
@@ -402,7 +403,7 @@ export default function Home() {
                     <div>
                       <p>Offence</p>
                       <p>Defence</p>
-                      <p>Versatiltiy</p>
+                      <p>Versatility</p>
                       <p>Multitasking</p>
                       <p>Mechanics</p>
                       <p>Speed</p>
@@ -454,7 +455,7 @@ export default function Home() {
                     <div>
                       <p>Offence</p>
                       <p>Defence</p>
-                      <p>Versatiltiy</p>
+                      <p>Versatility</p>
                       <p>Multitasking</p>
                       <p>Mechanics</p>
                       <p>Speed</p>
@@ -506,7 +507,7 @@ export default function Home() {
                     <div>
                       <p>Offence</p>
                       <p>Defence</p>
-                      <p>Versatiltiy</p>
+                      <p>Versatility</p>
                       <p>Multitasking</p>
                       <p>Mechanics</p>
                       <p>Speed</p>
@@ -558,7 +559,7 @@ export default function Home() {
                     <div>
                       <p>Offence</p>
                       <p>Defence</p>
-                      <p>Versatiltiy</p>
+                      <p>Versatility</p>
                       <p>Multitasking</p>
                       <p>Mechanics</p>
                       <p>Speed</p>
@@ -598,7 +599,7 @@ export default function Home() {
               </div>
 
               <div className="grid grid-cols-2 justify-items-center">
-                <Image className="rounded-lg ml-4" width={200} height={300} src={placeholder} alt="benja-img"></Image>
+                <Image className="rounded-lg ml-4" width={200} height={300} src={josh} alt="benja-img"></Image>
 
                 <div className="ml-8">
                   <div className="grid grid-cols-1 justify-items-center mr-[26px]">
@@ -610,7 +611,7 @@ export default function Home() {
                     <div>
                       <p>Offence</p>
                       <p>Defence</p>
-                      <p>Versatiltiy</p>
+                      <p>Versatility</p>
                       <p>Multitasking</p>
                       <p>Mechanics</p>
                       <p>Speed</p>
@@ -626,10 +627,10 @@ export default function Home() {
                       <p className="text-right text-md">47</p>
                     </div>
                     <div className="grid grid-cols-2 justify-items-center">
-                      <a href="https://twitter.com/BingBongExports" target="_blank" rel="noopener noreferrer">
+                      <a href="https://twitter.com/Omni_Skeptic" target="_blank" rel="noopener noreferrer">
                         <Image className="ml-[35px] mt-[7px] self-end" src={twitter} alt="twitter-img"></Image>
                       </a>
-                      <a href="https://www.twitch.tv/bingbongexports" target="_blank" rel="noopener noreferrer">
+                      <a href="https://www.twitch.tv/omniskepticsc" target="_blank" rel="noopener noreferrer">
                         <Image className="ml-[30px] mt-[7.5px] self-end" src={twitch} alt="twitch-img"></Image>
                       </a>
                     </div>
@@ -663,7 +664,7 @@ export default function Home() {
                     <div>
                       <p>Offence</p>
                       <p>Defence</p>
-                      <p>Versatiltiy</p>
+                      <p>Versatility</p>
                       <p>Multitasking</p>
                       <p>Mechanics</p>
                       <p>Speed</p>
@@ -695,7 +696,7 @@ export default function Home() {
 
         </div>
 
-        <div className="rounded-lg bg-black mt-[50px] min-h-[300px] min-w-[300px] lg:min-h-[500px] lg:min-w-[500px] ">
+        <div className="rounded-lg bg-black mt-[70px] min-h-[300px] min-w-[300px] lg:min-h-[500px] lg:min-w-[500px] ">
           <Image src={starcraft} alt="test"></Image>
         </div>
         <div className="mt-[110px] bg-black w-full min-h-[100px] border-solid border-saffron">
