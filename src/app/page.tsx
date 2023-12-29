@@ -4,6 +4,7 @@ import Image from 'next/image'
 import { Card, CardBody, Button, ButtonGroup, Divider } from '@nextui-org/react'
 import React from "react";
 import { Navbar, NavbarBrand, NavbarContent, NavbarItem, Link } from "@nextui-org/react";
+import PlayerCard from './playercard';
 import picture from './images/bingbongimage2.png'
 import starcraft from './images/starcraft-image.png'
 import discord from './images/baseline-discord.svg'
@@ -69,631 +70,233 @@ export default function Home() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center md:p-30">
-          <Card className="grid grid-place-items-center rounded-lg bg-gradient-to-b from-black from-70% to-saffron m-4 lg:m-8 h-[400px] w-[350px] xl:w-[800px] 2xl:w-[500px]">
-            <CardBody className="grid grid-place-items-center text-saffron">
-
-              <div className="grid grid-cols-3 justify-items-center">
-                <Image className="mt-4" src={protoss} alt="protoss-img" width={60} height={40}></Image>
-                <h1 className="font-black text-saffron text-2xl mt-8">HOLDEN</h1>
-                <Image className="mt-[28px]" width={45} height={40} src={usa} alt='usa-img'></Image>
-              </div>
-
-              <div className="grid grid-cols-2 justify-items-center">
-                <Image className="rounded-lg ml-4" width={200} height={300} src={holden} alt="holden-img"></Image>
-
-                <div className="ml-8">
-                  <div className="grid grid-cols-1 justify-items-center mr-[26px]">
-                    <p className="font-black text-xl">OVR</p>
-                    <p className="text-bold text-3xl">78</p>
-                  </div>
-
-                  <div className="grid grid-cols-2 justify-items-center">
-                    <div>
-                      <p>Offence</p>
-                      <p>Defence</p>
-                      <p>Versatility</p>
-                      <p>Multitasking</p>
-                      <p>Mechanics</p>
-                      <p>Speed</p>
-                      <p>Creativity</p>
-                    </div>
-                    <div>
-                      <p className="text-right text-md">81</p>
-                      <p className="text-right text-md">83</p>
-                      <p className="text-right text-md">71</p>
-                      <p className="text-right text-md">79</p>
-                      <p className="text-right text-md">84</p>
-                      <p className="text-right text-md">76</p>
-                      <p className="text-right text-md">74</p>
-                    </div>
-                    <div className="grid grid-cols-2 justify-items-center">
-                      <a href="https://twitter.com/Holden_SC2" target="_blank" rel="noopener noreferrer">
-                        <Image className="ml-[35px] mt-[7px] self-end" src={twitter} alt="twitter-img"></Image>
-                      </a>
-                      <a href="https://www.twitch.tv/holdensc2" target="_blank" rel="noopener noreferrer">
-                        <Image className="ml-[30px] mt-[7.5px] self-end" src={twitch} alt="twitch-img"></Image>
-                      </a>
-                    </div>
-                  </div>
-
-                </div>
-              </div>
-            </CardBody>
-          </Card>
-
-          <Card className="grid grid-place-items-center rounded-lg bg-gradient-to-b from-black from-70% to-saffron m-4 lg:m-8 h-[400px] w-[350px] xl:w-[800px] 2xl:w-[500px]">
-            <CardBody className="grid grid-place-items-center text-black">
-
-              <div className="grid grid-cols-3 justify-items-center">
-                <Image className="mt-4" src={protoss} alt="protoss-img" width={60} height={40}></Image>
-                <h1 className="font-black text-saffron text-2xl mt-8">ACHERON</h1>
-                <Image className="mt-[28px]" width={45} height={40} src={usa} alt='usa-img'></Image>
-              </div>
-
-              <div className="grid grid-cols-2 justify-items-center">
-                <Image className="rounded-lg ml-4" width={200} height={300} src={acheron} alt="acheron-img"></Image>
-
-                <div className="ml-8 text-saffron">
-                  <div className="grid grid-cols-1 justify-items-center mr-[26px]">
-                    <p className="font-black text-xl">OVR</p>
-                    <p className="text-bold text-3xl">72</p>
-                  </div>
-
-                  <div className="grid grid-cols-2 justify-items-center">
-                    <div>
-                      <p>Offence</p>
-                      <p>Defence</p>
-                      <p>Versatility</p>
-                      <p>Multitasking</p>
-                      <p>Mechanics</p>
-                      <p>Speed</p>
-                      <p>Creativity</p>
-                    </div>
-                    <div>
-                      <p className="text-right text-md">78</p>
-                      <p className="text-right text-md">68</p>
-                      <p className="text-right text-md">70</p>
-                      <p className="text-right text-md">69</p>
-                      <p className="text-right text-md">77</p>
-                      <p className="text-right text-md">70</p>
-                      <p className="text-right text-md">70</p>
-                    </div>
-                    <div className="grid grid-cols-2 justify-items-center">
-                      <a href="https://twitter.com/acheronii" target="_blank" rel="noopener noreferrer">
-                        <Image className="ml-[35px] mt-[7px] self-end" src={twitter} alt="twitter-img"></Image>
-                      </a>
-                      <a href="https://www.twitch.tv/acheronii" target="_blank" rel="noopener noreferrer">
-                        <Image className="ml-[30px] mt-[7.5px] self-end" src={twitch} alt="twitch-img"></Image>
-                      </a>
-                    </div>
-                  </div>
-
-                </div>
-              </div>
-            </CardBody>
-          </Card>
-
-          <Card className="grid grid-place-items-center rounded-lg bg-gradient-to-b from-black from-70% to-saffron m-4 lg:m-8 h-[400px] w-[350px] xl:w-[800px] 2xl:w-[500px]">
-            <CardBody className="grid grid-place-items-center text-saffron">
-
-              <div className="grid grid-cols-3 justify-items-center">
-                <Image className="mt-4" src={terran} alt="protoss-img" width={60} height={40}></Image>
-                <h1 className="font-black text-saffron text-2xl mt-[35px]">BILLYUDDERS</h1>
-                <Image className="mt-[28px]" width={45} height={40} src={usa} alt='usa-img'></Image>
-              </div>
-
-              <div className="grid grid-cols-2 justify-items-center">
-                <Image className="rounded-lg ml-4" width={200} height={300} src={billy} alt="billy-img"></Image>
-
-                <div className="ml-8">
-                  <div className="grid grid-cols-1 justify-items-center mr-[26px]">
-                    <p className="font-black text-xl">OVR</p>
-                    <p className="text-bold text-3xl">30</p>
-                  </div>
-
-                  <div className="grid grid-cols-2 justify-items-center">
-                    <div>
-                      <p>Offence</p>
-                      <p>Defence</p>
-                      <p>Versatility</p>
-                      <p>Multitasking</p>
-                      <p>Mechanics</p>
-                      <p>Speed</p>
-                      <p>Creativity</p>
-                    </div>
-                    <div>
-                      <p className="text-right text-md">23</p>
-                      <p className="text-right text-md">36</p>
-                      <p className="text-right text-md">33</p>
-                      <p className="text-right text-md">23</p>
-                      <p className="text-right text-md">14</p>
-                      <p className="text-right text-md">14</p>
-                      <p className="text-right text-md">70</p>
-                    </div>
-                    <div className="grid grid-cols-2 justify-items-center">
-                      <a href="https://twitter.com/BingBongExports" target="_blank" rel="noopener noreferrer">
-                        <Image className="ml-[35px] mt-[7px] self-end" src={twitter} alt="twitter-img"></Image>
-                      </a>
-                      <a href="https://www.twitch.tv/bingbongexports" target="_blank" rel="noopener noreferrer">
-                        <Image className="ml-[30px] mt-[7.5px] self-end" src={twitch} alt="twitch-img"></Image>
-                      </a>
-                    </div>
-                  </div>
-
-                </div>
-              </div>
-            </CardBody>
-          </Card>
-
-          <Card className="grid grid-place-items-center rounded-lg bg-gradient-to-b from-black from-70% to-saffron m-4 lg:m-8 h-[400px] w-[350px] xl:w-[800px] 2xl:w-[500px]">
-            <CardBody className="grid grid-place-items-center text-saffron">
-
-              <div className="grid grid-cols-3 justify-items-center">
-                <Image className="mt-4" src={zerg} alt="protoss-img" width={60} height={40}></Image>
-                <h1 className="font-black text-saffron text-2xl mt-[35px]">BENJADEATH</h1>
-                <Image className="mt-[28px]" width={45} height={40} src={usa} alt='usa-img'></Image>
-              </div>
-
-              <div className="grid grid-cols-2 justify-items-center">
-                <Image className="rounded-lg ml-4" width={200} height={300} src={benja} alt="benja-img"></Image>
-
-                <div className="ml-8">
-                  <div className="grid grid-cols-1 justify-items-center mr-[26px]">
-                    <p className="font-black text-xl">OVR</p>
-                    <p className="text-bold text-3xl">63</p>
-                  </div>
-
-                  <div className="grid grid-cols-2 justify-items-center">
-                    <div>
-                      <p>Offence</p>
-                      <p>Defence</p>
-                      <p>Versatility</p>
-                      <p>Multitasking</p>
-                      <p>Mechanics</p>
-                      <p>Speed</p>
-                      <p>Creativity</p>
-                    </div>
-                    <div>
-                      <p className="text-right text-md">83</p>
-                      <p className="text-right text-md">57</p>
-                      <p className="text-right text-md">60</p>
-                      <p className="text-right text-md">53</p>
-                      <p className="text-right text-md">61</p>
-                      <p className="text-right text-md">60</p>
-                      <p className="text-right text-md">64</p>
-                    </div>
-                    <div className="grid grid-cols-2 justify-items-center">
-                      <a href="https://twitter.com/BingBongExports" target="_blank" rel="noopener noreferrer">
-                        <Image className="ml-[35px] mt-[7px] self-end" src={twitter} alt="twitter-img"></Image>
-                      </a>
-                      <a href="https://www.twitch.tv/benjamarydeathdeath" target="_blank" rel="noopener noreferrer">
-                        <Image className="ml-[30px] mt-[7.5px] self-end" src={twitch} alt="twitch-img"></Image>
-                      </a>
-                    </div>
-                  </div>
-
-                </div>
-              </div>
-            </CardBody>
-          </Card>
-
-          <Card className="grid grid-place-items-center rounded-lg bg-gradient-to-b from-black from-70% to-saffron m-4 lg:m-8 h-[400px] w-[350px] xl:w-[800px] 2xl:w-[500px]">
-            <CardBody className="grid grid-place-items-center text-saffron">
-
-              <div className="grid grid-cols-3 justify-items-center">
-                <Image className="mt-4" src={zerg} alt="protoss-img" width={60} height={40}></Image>
-                <h1 className="font-black text-saffron text-2xl mt-[35px]">SPAZYMAZY</h1>
-                <Image className="mt-[28px]" width={45} height={40} src={denmark} alt='denmark-img'></Image>
-              </div>
-
-              <div className="grid grid-cols-2 justify-items-center">
-                <Image className="rounded-lg ml-4" width={200} height={300} src={spazy} alt="spazy-img"></Image>
-
-                <div className="ml-8">
-                  <div className="grid grid-cols-1 justify-items-center mr-[26px]">
-                    <p className="font-black text-xl">OVR</p>
-                    <p className="text-bold text-3xl">86</p>
-                  </div>
-
-                  <div className="grid grid-cols-2 justify-items-center">
-                    <div>
-                      <p>Offence</p>
-                      <p>Defence</p>
-                      <p>Versatility</p>
-                      <p>Multitasking</p>
-                      <p>Mechanics</p>
-                      <p>Speed</p>
-                      <p>Creativity</p>
-                    </div>
-                    <div>
-                      <p className="text-right text-md">93</p>
-                      <p className="text-right text-md">82</p>
-                      <p className="text-right text-md">78</p>
-                      <p className="text-right text-md">87</p>
-                      <p className="text-right text-md">92</p>
-                      <p className="text-right text-md">90</p>
-                      <p className="text-right text-md">83</p>
-                    </div>
-                    <div className="grid grid-cols-2 justify-items-center">
-                      <a href="https://twitter.com/Spazymazysc2" target="_blank" rel="noopener noreferrer">
-                        <Image className="ml-[35px] mt-[7px] self-end" src={twitter} alt="twitter-img"></Image>
-                      </a>
-                      <a href="https://www.twitch.tv/spazymazysc2" target="_blank" rel="noopener noreferrer">
-                        <Image className="ml-[30px] mt-[7.5px] self-end" src={twitch} alt="twitch-img"></Image>
-                      </a>
-                    </div>
-                  </div>
-
-                </div>
-              </div>
-            </CardBody>
-          </Card>
-
-          <Card className="grid grid-place-items-center rounded-lg bg-gradient-to-b from-black from-70% to-saffron m-4 lg:m-8 h-[400px] w-[350px] xl:w-[800px] 2xl:w-[500px]">
-            <CardBody className="grid grid-place-items-center text-saffron">
-
-              <div className="grid grid-cols-3 justify-items-center">
-                <Image className="mt-4" src={zerg} alt="protoss-img" width={60} height={40}></Image>
-                <h1 className="font-black text-saffron text-2xl mt-[35px]">ANTICORE</h1>
-                <Image className="mt-[28px]" width={45} height={40} src={denmark} alt='denmark-img'></Image>
-              </div>
-
-              <div className="grid grid-cols-2 justify-items-center">
-                <Image className="rounded-lg ml-4" width={200} height={300} src={anticore} alt="spazy-img"></Image>
-
-                <div className="ml-8">
-                  <div className="grid grid-cols-1 justify-items-center mr-[26px]">
-                    <p className="font-black text-xl">OVR</p>
-                    <p className="text-bold text-3xl">64</p>
-                  </div>
-
-                  <div className="grid grid-cols-2 justify-items-center">
-                    <div>
-                      <p>Offence</p>
-                      <p>Defence</p>
-                      <p>Versatility</p>
-                      <p>Multitasking</p>
-                      <p>Mechanics</p>
-                      <p>Speed</p>
-                      <p>Creativity</p>
-                    </div>
-                    <div>
-                      <p className="text-right text-md">76</p>
-                      <p className="text-right text-md">60</p>
-                      <p className="text-right text-md">57</p>
-                      <p className="text-right text-md">56</p>
-                      <p className="text-right text-md">63</p>
-                      <p className="text-right text-md">57</p>
-                      <p className="text-right text-md">79</p>
-                    </div>
-                    <div className="grid grid-cols-2 justify-items-center">
-                      <a href="https://twitter.com/BingBongExports" target="_blank" rel="noopener noreferrer">
-                        <Image className="ml-[35px] mt-[7px] self-end" src={twitter} alt="twitter-img"></Image>
-                      </a>
-                      <a href="https://www.twitch.tv/coranticore" target="_blank" rel="noopener noreferrer">
-                        <Image className="ml-[30px] mt-[7.5px] self-end" src={twitch} alt="twitch-img"></Image>
-                      </a>
-                    </div>
-                  </div>
-
-                </div>
-              </div>
-            </CardBody>
-          </Card>
-
-          <Card className="grid grid-place-items-center rounded-lg bg-gradient-to-b from-black from-70% to-saffron m-4 lg:m-8 h-[400px] w-[350px] xl:w-[800px] 2xl:w-[500px]">
-            <CardBody className="grid grid-place-items-center text-saffron">
-
-              <div className="grid grid-cols-3 justify-items-center">
-                <Image className="mt-4" src={protoss} alt="protoss-img" width={60} height={40}></Image>
-                <h1 className="font-black text-saffron text-2xl mt-[35px]">AZURA</h1>
-                <Image className="mt-[28px]" width={45} height={40} src={italy} alt='usa-img'></Image>
-              </div>
-
-              <div className="grid grid-cols-2 justify-items-center">
-                <Image className="rounded-lg ml-4" width={200} height={300} src={placeholder} alt="benja-img"></Image>
-
-                <div className="ml-8">
-                  <div className="grid grid-cols-1 justify-items-center mr-[26px]">
-                    <p className="font-black text-xl">OVR</p>
-                    <p className="text-bold text-3xl">72</p>
-                  </div>
-
-                  <div className="grid grid-cols-2 justify-items-center">
-                    <div>
-                      <p>Offence</p>
-                      <p>Defence</p>
-                      <p>Versatility</p>
-                      <p>Multitasking</p>
-                      <p>Mechanics</p>
-                      <p>Speed</p>
-                      <p>Creativity</p>
-                    </div>
-                    <div>
-                      <p className="text-right text-md">77</p>
-                      <p className="text-right text-md">73</p>
-                      <p className="text-right text-md">72</p>
-                      <p className="text-right text-md">67</p>
-                      <p className="text-right text-md">72</p>
-                      <p className="text-right text-md">68</p>
-                      <p className="text-right text-md">78</p>
-                    </div>
-                    <div className="grid grid-cols-2 justify-items-center">
-                      <a href="https://twitter.com/BingBongExports" target="_blank" rel="noopener noreferrer">
-                        <Image className="ml-[35px] mt-[7px] self-end" src={twitter} alt="twitter-img"></Image>
-                      </a>
-                      <a href="https://www.twitch.tv/bingbongexports" target="_blank" rel="noopener noreferrer">
-                        <Image className="ml-[30px] mt-[7.5px] self-end" src={twitch} alt="twitch-img"></Image>
-                      </a>
-                    </div>
-                  </div>
-
-                </div>
-              </div>
-            </CardBody>
-          </Card>
-
-          <Card className="grid grid-place-items-center rounded-lg bg-gradient-to-b from-black from-70% to-saffron m-4 lg:m-8 h-[400px] w-[350px] xl:w-[800px] 2xl:w-[500px]">
-            <CardBody className="grid grid-place-items-center text-saffron">
-
-              <div className="grid grid-cols-3 justify-items-center">
-                <Image className="mt-4" src={terran} alt="protoss-img" width={60} height={40}></Image>
-                <h1 className="font-black text-saffron text-2xl mt-[35px]">MAG</h1>
-                <Image className="mt-[28px]" width={45} height={40} src={denmark} alt='usa-img'></Image>
-              </div>
-
-              <div className="grid grid-cols-2 justify-items-center">
-                <Image className="rounded-lg ml-4" width={200} height={300} src={placeholder} alt="benja-img"></Image>
-
-                <div className="ml-8">
-                  <div className="grid grid-cols-1 justify-items-center mr-[26px]">
-                    <p className="font-black text-xl">OVR</p>
-                    <p className="text-bold text-3xl">58</p>
-                  </div>
-
-                  <div className="grid grid-cols-2 justify-items-center">
-                    <div>
-                      <p>Offence</p>
-                      <p>Defence</p>
-                      <p>Versatility</p>
-                      <p>Multitasking</p>
-                      <p>Mechanics</p>
-                      <p>Speed</p>
-                      <p>Creativity</p>
-                    </div>
-                    <div>
-                      <p className="text-right text-md">72</p>
-                      <p className="text-right text-md">52</p>
-                      <p className="text-right text-md">48</p>
-                      <p className="text-right text-md">60</p>
-                      <p className="text-right text-md">60</p>
-                      <p className="text-right text-md">64</p>
-                      <p className="text-right text-md">48</p>
-                    </div>
-                    <div className="grid grid-cols-2 justify-items-center">
-                      <a href="https://twitter.com/Mag_sc2" target="_blank" rel="noopener noreferrer">
-                        <Image className="ml-[35px] mt-[7px] self-end" src={twitter} alt="twitter-img"></Image>
-                      </a>
-                      <a href="https://www.twitch.tv/bingbongexports" target="_blank" rel="noopener noreferrer">
-                        <Image className="ml-[30px] mt-[7.5px] self-end" src={twitch} alt="twitch-img"></Image>
-                      </a>
-                    </div>
-                  </div>
-
-                </div>
-              </div>
-            </CardBody>
-          </Card>
-
-          <Card className="grid grid-place-items-center rounded-lg bg-gradient-to-b from-black from-70% to-saffron m-4 lg:m-8 h-[400px] w-[350px] xl:w-[800px] 2xl:w-[500px]">
-            <CardBody className="grid grid-place-items-center text-saffron">
-
-              <div className="grid grid-cols-3 justify-items-center">
-                <Image className="mt-4" src={terran} alt="protoss-img" width={60} height={40}></Image>
-                <h1 className="font-black text-saffron text-2xl mt-[35px]">SLIPJIP</h1>
-                <Image className="mt-[28px]" width={45} height={40} src={usa} alt='usa-img'></Image>
-              </div>
-
-              <div className="grid grid-cols-2 justify-items-center">
-                <Image className="rounded-lg ml-4" width={200} height={300} src={placeholder} alt="benja-img"></Image>
-
-                <div className="ml-8">
-                  <div className="grid grid-cols-1 justify-items-center mr-[26px]">
-                    <p className="font-black text-xl">OVR</p>
-                    <p className="text-bold text-3xl">71</p>
-                  </div>
-
-                  <div className="grid grid-cols-2 justify-items-center">
-                    <div>
-                      <p>Offence</p>
-                      <p>Defence</p>
-                      <p>Versatility</p>
-                      <p>Multitasking</p>
-                      <p>Mechanics</p>
-                      <p>Speed</p>
-                      <p>Creativity</p>
-                    </div>
-                    <div>
-                      <p className="text-right text-md">80</p>
-                      <p className="text-right text-md">66</p>
-                      <p className="text-right text-md">73</p>
-                      <p className="text-right text-md">73</p>
-                      <p className="text-right text-md">66</p>
-                      <p className="text-right text-md">69</p>
-                      <p className="text-right text-md">74</p>
-                    </div>
-                    <div className="grid grid-cols-2 justify-items-center">
-                      <a href="https://twitter.com/Slip_sc2" target="_blank" rel="noopener noreferrer">
-                        <Image className="ml-[35px] mt-[7px] self-end" src={twitter} alt="twitter-img"></Image>
-                      </a>
-                      <a href="https://www.twitch.tv/bingbongexports" target="_blank" rel="noopener noreferrer">
-                        <Image className="ml-[30px] mt-[7.5px] self-end" src={twitch} alt="twitch-img"></Image>
-                      </a>
-                    </div>
-                  </div>
-
-                </div>
-              </div>
-            </CardBody>
-          </Card>
-
-          <Card className="grid grid-place-items-center rounded-lg bg-gradient-to-b from-black from-70% to-saffron m-4 lg:m-8 h-[400px] w-[350px] xl:w-[800px] 2xl:w-[500px]">
-            <CardBody className="grid grid-place-items-center text-saffron">
-
-              <div className="grid grid-cols-3 justify-items-center">
-                <Image className="mt-4" src={zerg} alt="protoss-img" width={60} height={40}></Image>
-                <h1 className="font-black text-saffron text-2xl mt-[35px]">SHINY</h1>
-                <Image className="mt-[28px]" width={45} height={40} src={canada} alt='usa-img'></Image>
-              </div>
-
-              <div className="grid grid-cols-2 justify-items-center">
-                <Image className="rounded-lg ml-4" width={200} height={300} src={placeholder} alt="benja-img"></Image>
-
-                <div className="ml-8">
-                  <div className="grid grid-cols-1 justify-items-center mr-[26px]">
-                    <p className="font-black text-xl">OVR</p>
-                    <p className="text-bold text-3xl">57</p>
-                  </div>
-
-                  <div className="grid grid-cols-2 justify-items-center">
-                    <div>
-                      <p>Offence</p>
-                      <p>Defence</p>
-                      <p>Versatility</p>
-                      <p>Multitasking</p>
-                      <p>Mechanics</p>
-                      <p>Speed</p>
-                      <p>Creativity</p>
-                    </div>
-                    <div>
-                      <p className="text-right text-md">54</p>
-                      <p className="text-right text-md">57</p>
-                      <p className="text-right text-md">52</p>
-                      <p className="text-right text-md">57</p>
-                      <p className="text-right text-md">62</p>
-                      <p className="text-right text-md">66</p>
-                      <p className="text-right text-md">51</p>
-                    </div>
-                    <div className="grid grid-cols-2 justify-items-center">
-                      <a href="https://twitter.com/BingBongExports" target="_blank" rel="noopener noreferrer">
-                        <Image className="ml-[35px] mt-[7px] self-end" src={twitter} alt="twitter-img"></Image>
-                      </a>
-                      <a href="https://www.twitch.tv/bingbongexports" target="_blank" rel="noopener noreferrer">
-                        <Image className="ml-[30px] mt-[7.5px] self-end" src={twitch} alt="twitch-img"></Image>
-                      </a>
-                    </div>
-                  </div>
-
-                </div>
-              </div>
-            </CardBody>
-          </Card>
-
-          <Card className="grid grid-place-items-center rounded-lg bg-gradient-to-b from-black from-70% to-saffron m-4 lg:m-8 h-[400px] w-[350px] xl:w-[800px] 2xl:w-[500px]">
-            <CardBody className="grid grid-place-items-center text-saffron">
-
-              <div className="grid grid-cols-3 justify-items-center">
-                <Image className="mt-4" src={terran} alt="protoss-img" width={60} height={40}></Image>
-                <h1 className="font-black text-saffron text-2xl mt-[35px]">OMNISKEPTIC</h1>
-                <Image className="mt-[28px]" width={45} height={40} src={canada} alt='usa-img'></Image>
-              </div>
-
-              <div className="grid grid-cols-2 justify-items-center">
-                <Image className="rounded-lg ml-4" width={200} height={300} src={josh} alt="benja-img"></Image>
-
-                <div className="ml-8">
-                  <div className="grid grid-cols-1 justify-items-center mr-[26px]">
-                    <p className="font-black text-xl">OVR</p>
-                    <p className="text-bold text-3xl">59</p>
-                  </div>
-
-                  <div className="grid grid-cols-2 justify-items-center">
-                    <div>
-                      <p>Offence</p>
-                      <p>Defence</p>
-                      <p>Versatility</p>
-                      <p>Multitasking</p>
-                      <p>Mechanics</p>
-                      <p>Speed</p>
-                      <p>Creativity</p>
-                    </div>
-                    <div>
-                      <p className="text-right text-md">60</p>
-                      <p className="text-right text-md">64</p>
-                      <p className="text-right text-md">51</p>
-                      <p className="text-right text-md">64</p>
-                      <p className="text-right text-md">67</p>
-                      <p className="text-right text-md">60</p>
-                      <p className="text-right text-md">47</p>
-                    </div>
-                    <div className="grid grid-cols-2 justify-items-center">
-                      <a href="https://twitter.com/Omni_Skeptic" target="_blank" rel="noopener noreferrer">
-                        <Image className="ml-[35px] mt-[7px] self-end" src={twitter} alt="twitter-img"></Image>
-                      </a>
-                      <a href="https://www.twitch.tv/omniskepticsc" target="_blank" rel="noopener noreferrer">
-                        <Image className="ml-[30px] mt-[7.5px] self-end" src={twitch} alt="twitch-img"></Image>
-                      </a>
-                    </div>
-                  </div>
-
-                </div>
-              </div>
-            </CardBody>
-          </Card>
-
-
-          <Card className="grid grid-place-items-center rounded-lg bg-gradient-to-b from-black from-70% to-saffron m-4 lg:m-8 h-[400px] w-[350px] xl:w-[800px] 2xl:w-[500px]">
-            <CardBody className="grid grid-place-items-center text-saffron">
-
-              <div className="grid grid-cols-3 justify-items-center">
-                <Image className="mt-4" src={terran} alt="protoss-img" width={60} height={40}></Image>
-                <h1 className="font-black text-saffron text-2xl mt-[35px]">UNIVERSE</h1>
-                <Image className="mt-[28px]" width={45} height={40} src={southkorea} alt='usa-img'></Image>
-              </div>
-
-              <div className="grid grid-cols-2 justify-items-center">
-                <Image className="rounded-lg ml-4" width={200} height={300} src={placeholder} alt="benja-img"></Image>
-
-                <div className="ml-8">
-                  <div className="grid grid-cols-1 justify-items-center mr-[26px]">
-                    <p className="font-black text-xl">OVR</p>
-                    <p className="text-bold text-3xl">68</p>
-                  </div>
-
-                  <div className="grid grid-cols-2 justify-items-center">
-                    <div>
-                      <p>Offence</p>
-                      <p>Defence</p>
-                      <p>Versatility</p>
-                      <p>Multitasking</p>
-                      <p>Mechanics</p>
-                      <p>Speed</p>
-                      <p>Creativity</p>
-                    </div>
-                    <div>
-                      <p className="text-right text-md">80</p>
-                      <p className="text-right text-md">64</p>
-                      <p className="text-right text-md">60</p>
-                      <p className="text-right text-md">71</p>
-                      <p className="text-right text-md">76</p>
-                      <p className="text-right text-md">71</p>
-                      <p className="text-right text-md">55</p>
-                    </div>
-                    <div className="grid grid-cols-2 justify-items-center">
-                      <a href="https://twitter.com/BingBongExports" target="_blank" rel="noopener noreferrer">
-                        <Image className="ml-[35px] mt-[7px] self-end" src={twitter} alt="twitter-img"></Image>
-                      </a>
-                      <a href="https://www.twitch.tv/bingbongexports" target="_blank" rel="noopener noreferrer">
-                        <Image className="ml-[30px] mt-[7.5px] self-end" src={twitch} alt="twitch-img"></Image>
-                      </a>
-                    </div>
-                  </div>
-
-                </div>
-              </div>
-            </CardBody>
-          </Card>
-
+          <PlayerCard
+            imageRace={protoss}
+            imageCountry={usa}
+            imagePlayer={holden}
+            playerName="HOLDEN"
+            playerStats={{
+              overallRating: 78,
+              offence: 81,
+              defence: 83,
+              versatility: 71,
+              multitasking: 79,
+              mechanics: 84,
+              speed: 76,
+              creativity: 74
+            }}
+            playerTwitterLink="https://twitter.com/Holden_SC2"
+            playerTwitchLink="https://www.twitch.tv/holdensc2"
+          />
+
+          <PlayerCard
+            imageRace={protoss}
+            imageCountry={usa}
+            imagePlayer={acheron}
+            playerName="ACHERON"
+            playerStats={{
+              overallRating: 72,
+              offence: 78,
+              defence: 68,
+              versatility: 70,
+              multitasking: 69,
+              mechanics: 77,
+              speed: 70,
+              creativity: 70
+            }}
+            playerTwitterLink="https://twitter.com/acheronii"
+            playerTwitchLink="https://www.twitch.tv/acheronii"
+          />
+
+          <PlayerCard
+            imageRace={terran}
+            imageCountry={usa}
+            imagePlayer={billy}
+            playerName="BILLYUDDERS"
+            playerStats={{
+              overallRating: 30,
+              offence: 23,
+              defence: 36,
+              versatility: 33,
+              multitasking: 23,
+              mechanics: 14,
+              speed: 14,
+              creativity: 70
+            }}
+            playerTwitterLink="https://twitter.com/BingBongExports"
+            playerTwitchLink="https://www.twitch.tv/bingbongexports"
+          />
+
+          <PlayerCard
+            imageRace={zerg}
+            imageCountry={usa}
+            imagePlayer={benja}
+            playerName="BENJADEATH"
+            playerStats={{
+              overallRating: 63,
+              offence: 83,
+              defence: 57,
+              versatility: 60,
+              multitasking: 53,
+              mechanics: 61,
+              speed: 60,
+              creativity: 64
+            }}
+            playerTwitterLink="https://twitter.com/BingBongExports"
+            playerTwitchLink="https://www.twitch.tv/benjamarydeathdeath"
+          />
+
+          <PlayerCard
+            imageRace={zerg}
+            imageCountry={denmark}
+            imagePlayer={spazy}
+            playerName="SPAZYMAZY"
+            playerStats={{
+              overallRating: 86,
+              offence: 93,
+              defence: 82,
+              versatility: 78,
+              multitasking: 87,
+              mechanics: 92,
+              speed: 90,
+              creativity: 83
+            }}
+            playerTwitterLink="https://twitter.com/BingBongExports"
+            playerTwitchLink="https://www.twitch.tv/bingbongexports"
+          />
+
+          <PlayerCard
+            imageRace={zerg}
+            imageCountry={denmark}
+            imagePlayer={anticore}
+            playerName="ANTICORE"
+            playerStats={{
+              overallRating: 64,
+              offence: 76,
+              defence: 60,
+              versatility: 57,
+              multitasking: 56,
+              mechanics: 63,
+              speed: 57,
+              creativity: 79
+            }}
+            playerTwitterLink="https://twitter.com/BingBongExports"
+            playerTwitchLink="https://www.twitch.tv/bingbongexports"
+          />
+
+          <PlayerCard
+            imageRace={protoss}
+            imageCountry={italy}
+            imagePlayer={placeholder}
+            playerName="AZURA"
+            playerStats={{
+              overallRating: 72,
+              offence: 77,
+              defence: 73,
+              versatility: 72,
+              multitasking: 67,
+              mechanics: 72,
+              speed: 68,
+              creativity: 78
+            }}
+            playerTwitterLink="https://twitter.com/BingBongExports"
+            playerTwitchLink="https://www.twitch.tv/bingbongexports"
+          />
+
+          <PlayerCard
+            imageRace={terran}
+            imageCountry={denmark}
+            imagePlayer={placeholder}
+            playerName="MAG"
+            playerStats={{
+              overallRating: 58,
+              offence: 72,
+              defence: 52,
+              versatility: 48,
+              multitasking: 60,
+              mechanics: 60,
+              speed: 64,
+              creativity: 48
+            }}
+            playerTwitterLink="https://twitter.com/Mag_sc2"
+            playerTwitchLink="https://www.twitch.tv/bbex_mag"
+          />
+
+          <PlayerCard
+            imageRace={terran}
+            imageCountry={usa}
+            imagePlayer={placeholder}
+            playerName="SLIPJIP"
+            playerStats={{
+              overallRating: 71,
+              offence: 80,
+              defence: 66,
+              versatility: 73,
+              multitasking: 73,
+              mechanics: 66,
+              speed: 69,
+              creativity: 74
+            }}
+            playerTwitterLink="https://twitter.com/Slip_sc2"
+            playerTwitchLink="https://www.twitch.tv/bingbongexports"
+          />
+
+          <PlayerCard
+            imageRace={zerg}
+            imageCountry={canada}
+            imagePlayer={placeholder}
+            playerName="SHINY"
+            playerStats={{
+              overallRating: 57,
+              offence: 54,
+              defence: 57,
+              versatility: 52,
+              multitasking: 57,
+              mechanics: 62,
+              speed: 66,
+              creativity: 51
+            }}
+            playerTwitterLink="https://twitter.com/BingBongExports"
+            playerTwitchLink="https://www.twitch.tv/bingbongexports"
+          />
+
+          <PlayerCard
+            imageRace={terran}
+            imageCountry={canada}
+            imagePlayer={josh}
+            playerName="OMNISKEPTIC"
+            playerStats={{
+              overallRating: 59,
+              offence: 60,
+              defence: 64,
+              versatility: 51,
+              multitasking: 64,
+              mechanics: 67,
+              speed: 60,
+              creativity: 47
+            }}
+            playerTwitterLink="https://twitter.com/Omni_Skeptic"
+            playerTwitchLink="https://www.twitch.tv/omniskepticsc"
+          />
+
+          <PlayerCard
+            imageRace={terran}
+            imageCountry={southkorea}
+            imagePlayer={placeholder}
+            playerName="UNIVERSE"
+            playerStats={{
+              overallRating: 68,
+              offence: 80,
+              defence: 64,
+              versatility: 60,
+              multitasking: 71,
+              mechanics: 76,
+              speed: 71,
+              creativity: 55
+            }}
+            playerTwitterLink="https://twitter.com/BingBongExports"
+            playerTwitchLink="https://www.twitch.tv/bingbongexports"
+          />
         </div>
 
         <div className="rounded-lg bg-black mt-[70px] min-h-[300px] min-w-[300px] lg:min-h-[500px] lg:min-w-[500px] ">
