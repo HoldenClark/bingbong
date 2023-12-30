@@ -20,6 +20,7 @@ import billy from './images/billy.jpg'
 import spazy from './images/spazymazy.jpg'
 import anticore from './images/anticore_pfp.png'
 import josh from './images/josh.jpg'
+import mag from './images/mag.jpg'
 import usa from './images/flag-united-states.svg'
 import denmark from './images/flag-denmark.svg'
 import italy from './images/flag-italy.svg'
@@ -206,7 +207,7 @@ export default function Home() {
           <PlayerCard
             imageRace={terran}
             imageCountry={denmark}
-            imagePlayer={placeholder}
+            imagePlayer={mag}
             playerName="MAG"
             playerStats={{
               overallRating: 58,
